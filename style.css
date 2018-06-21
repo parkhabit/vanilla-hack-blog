@@ -1,0 +1,54 @@
+body {
+    background-color: orange;
+    font-family:sans-serif;
+}
+
+h1 {
+    color: pink;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 6px 2px 0px rgba(255, 255, 250, 1);
+}
+
+.contentContainer {
+    width: 80vw;
+    border: 6px solid pink;
+    height: 80vh;
+    overflow: scroll;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h3 {
+    color: orange;
+    font-size: 1.6rem;
+}
+
+span {
+    color: #BB8FCE;
+    font-weight: bold;
+}
+
+.displayNone {
+    display: none;
+}
+
+.display {
+    display: block;
+    color: black;
+}
+
+.contentContainer div {
+    border: 1px solid orange;
+    padding: 2rem;
+}
+
+p {
+    font-family: monospace;
+    color: grey;
+    font-size: 1.4rem;
+}
+
+.highlightedBackground {
+    background-color:#FFE2FF;
+}
